@@ -26,8 +26,8 @@ DeltaLoader also supports auto updates for mods downloaded from GameBanana. Clic
 ## How It Works
 DeltaLoader will go through all of the files for the selected mod and do different things based on the file extension. 
 
-### .xdelta
-If it finds an xdelta patch, it will first try to patch the data.win file. If it fails, it will then attempt to patch every single .bank file from the sound/Desktop folder until it succeeds.
+### .xdelta it wi
+If it finds an xdelta patch, it will first try to patch the data.win file. If it fails, it won't be patched.
 
 ### .txt
 It will make sure its a language file by reading the contents first. Then it will copy over the .txt file to the lang folder
